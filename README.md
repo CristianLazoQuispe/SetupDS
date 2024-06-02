@@ -45,6 +45,12 @@ chmod +x install_lightgbm_gpu.sh
 ./install_lightgbm_gpu.sh
 ```
 
+### Step 4: Performance Testing
+To test the performance of LightGBM with GPU support, you can use the provided Python script. Make sure you have all the necessary Python packages installed, such as lightgbm and other dependencies.
+```bash
+python testing_lgbm.py
+```
+
 ### Usage in Data Science Competitions
 LightGBM with GPU support can significantly speed up model training and hyperparameter tuning in data science competitions, allowing you to iterate faster and achieve better results.
 
